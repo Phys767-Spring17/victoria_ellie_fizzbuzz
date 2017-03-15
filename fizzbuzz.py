@@ -10,9 +10,8 @@
 # 		return number
 		
 def fizzbuzz(number):
-	
-	if type(number) == float :
-		return "number is a float"
+
+	assert (type(number) == int), "Number is not an int"
 	
 	if number % 3 == 0 and number % 5 == 0:
 		return 'fizzbuzz'
